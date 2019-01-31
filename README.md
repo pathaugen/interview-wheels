@@ -14,6 +14,34 @@ interview-wheels: wheels interview question expanded to a public repo.
 
 ![App Screenshot](assets/images/appimage.jpg)
 
+Word Counter
+============
+
+Hi! Welcome to the coding challenge: **Word Counter**
+
+Taking a specified directory such as _"/home/username"_ search recursively down any/all subdirectories for all files ending in .txt count each instance of any/all words and total them all up.
+
+**Example User Input:**
+```
+/home/username
+```
+
+**Example Response:**
+```
+Count   Word
+-----   ----
+4873    the
+3918    a
+312     apple
+.       .
+```
+
+**Rules:**
+* Assume UTF-8 encoded simple text.
+* Avoid using libraries and if you use any, please justify their use.
+* Dependencies need to be managed if you use any external libraries.
+* Solution must be able to be readily run or deployed and of production quality.
+
 Building Application (Windows)
 ------------------------------
 
@@ -34,7 +62,7 @@ Building Application (Windows)
    * Install Git:
      * https://git-scm.com/
    * Test Git Installation:
-     * > git --version
+     * `> git --version`
 4. Build and Run Application:
    * Open Command Prompt
    * > mkdir c:\git
